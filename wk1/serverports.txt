@@ -1,0 +1,33 @@
+1. What is the definition of server port?
+
+Server ports are set of numbers that helps identify a connection endpoint between a data and its service, and each of these ports are dedicate3d to do specific processes. In other words, ports are a virtual point where connection starts and ends.
+
+
+
+2. What is server port range?
+
+As discussed previously, ports are used for connection between applications. There are port ranges where specific application uses. Ports can have a value between 0 to 65535. They are also classified, for example,
+Ports 0 - 1023 are for TCP/IP applications or also well-known ports.
+Ports 1024 - 49151 are for user server applications, and 
+Ports 49152 - 65535 are for clients.
+
+
+
+3. How many bits does number above represent?
+Ports are represented by 16-bit numbers
+
+
+
+4. State 10 common server ports
+
+These are few examples of common server ports which I also have used some of them in the past.
+HTTP – Port 80
+HTTPS – 443
+FTP – 21
+MySQL – 3306
+cPanel – 2082
+WHM (Webhost Manager) – 2086
+POP3 – 110
+POP3 SSL – 995
+Webmail – 2095
+WebDAV/WebDisk – 2077
