@@ -1,0 +1,24 @@
+root@comp3134-Winter2023:~# ping 41.71.110.82
+PING 41.71.110.82 (41.71.110.82) 56(84) bytes of data.
+64 bytes from 41.71.110.82: icmp_seq=1 ttl=53 time=222 ms
+64 bytes from 41.71.110.82: icmp_seq=2 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=3 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=4 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=5 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=6 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=7 ttl=53 time=221 ms
+^C
+--- 41.71.110.82 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6004ms
+rtt min/avg/max/mdev = 220.667/220.927/221.662/0.308 ms
+root@comp3134-Winter2023:~# ping 41.71.110.82 -w 5
+PING 41.71.110.82 (41.71.110.82) 56(84) bytes of data.
+64 bytes from 41.71.110.82: icmp_seq=1 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=2 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=3 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=4 ttl=53 time=221 ms
+64 bytes from 41.71.110.82: icmp_seq=5 ttl=53 time=221 ms
+
+--- 41.71.110.82 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 220.726/220.874/220.996/0.102 ms
