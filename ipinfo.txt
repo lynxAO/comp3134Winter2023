@@ -1,0 +1,23 @@
+Lab 2
+
+5 domains IP
+
+1. IPv4 Address for www.amazon.com
+ 
+Domain Server IP: 23.62.170.100
+
+2. IPv4 Address for www.ups.com
+
+Domain Server IP: 23.203.101.153
+
+3. IPv4 Address for www.moleskine.com
+
+Domain Server IP: 23.199.16.222
+
+4. IPv4 Address for https://www.shopify.com/
+
+Domain Server IP: 185.146.173.20
+
+5.  IPv4 Address for https://liberte.ca/
+
+Domain Server IP: 50.21.175.119
