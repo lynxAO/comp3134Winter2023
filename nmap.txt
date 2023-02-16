@@ -1,0 +1,71 @@
+root@comp3134-Winter2023:~# nmap 23.203.101.153
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-16 00:26 UTC
+Nmap scan report for a23-203-101-153.deploy.static.akamaitechnologies.com (23.203.101.153)
+Host is up (0.031s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.15 seconds
+
+
+
+
+root@comp3134-Winter2023:~# nmap 199.60.116.126
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-16 00:16 UTC
+Nmap scan report for 199.60.116.126
+Host is up (0.067s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.27 seconds
+
+
+
+root@comp3134-Winter2023:~# nmap 41.71.110.82
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-16 00:20 UTC
+Nmap scan report for 41.71.110.82
+Host is up (0.22s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+80/tcp   open     http
+179/tcp  open     bgp
+443/tcp  open     https
+4445/tcp open     upnotifyp
+
+Nmap done: 1 IP address (1 host up) scanned in 13.96 seconds
+
+
+
+root@comp3134-Winter2023:~# nmap 23.62.170.100
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-16 00:23 UTC
+Nmap scan report for a23-62-170-100.deploy.static.akamaitechnologies.com (23.62.170.100)
+Host is up (0.017s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.58 seconds
+
+
+
+root@comp3134-Winter2023:~# nmap 185.146.173.20
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-16 00:23 UTC
+Nmap scan report for 185.146.173.20
+Host is up (0.0021s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 4.49 seconds
+

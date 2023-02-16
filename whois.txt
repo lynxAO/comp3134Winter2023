@@ -1,0 +1,156 @@
+Lab 2
+
+C. Identifying Server
+
+5 websites
+
+1. hulu.com
+
+details:
+--------------------
+
+Domain Information
+Domain:hulu.com
+Registrar:CSC Corporate Domains, Inc.
+Registered On:1997-02-21
+Expires On:2023-02-22
+Updated On:2022-02-18
+Status:clientTransferProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:asia1.akam.net
+asia2.akam.net
+asia3.akam.net
+aus1.akam.net
+ns1-210.akam.net
+ns1-24.akam.net
+use9.akam.net
+usw1.akam.net
+
+Registrant Contact
+Name:Hulu LLC
+Organization:Hulu, LLC
+Street:2500 Broadway, Floor 2
+City:Santa Monica
+State:CA
+Postal Code:90404
+Country:US
+Phone:+1.3105714700
+Fax:+1.3105714701
+Email:email@hulu.com
+
+2. netflix.com
+
+details:
+--------------------
+
+Domain Information
+Domain:netflix.com
+Registrar:MarkMonitor Inc.
+Registered On:1997-11-11
+Expires On:2023-11-10
+Updated On:2021-10-09
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:ns-1372.awsdns-43.org
+ns-1984.awsdns-56.co.uk
+ns-659.awsdns-18.net
+ns-81.awsdns-10.com
+
+Name:Domain Administrator
+Organization:Netflix, Inc.
+Street:100 Winchester Circle,
+City:Los Gatos
+State:CA
+Postal Code:95032
+Country:US
+Phone:+1.4085403700
+Fax:+1.4085403737
+Email:email@netflix.com
+
+3. bmvbooks.com
+
+details:
+-------------------
+Domain Information
+Domain:bmvbooks.com
+Registrar:FastDomain Inc.
+Registered On:2012-09-26
+Expires On:2027-09-26
+Updated On:2022-09-29
+Status:ok
+Name Servers:ns1.netfirms.com
+ns2.netfirms.com
+
+Registrant Contact
+Name:PATRICK HEMPELMANN
+Organization:PATRICK HEMPELMANN
+Street:39 MATHERSFIELD DRIVE
+City:TORONTO
+State:ONTARIO
+Postal Code:M4W 3W4
+Country:CA
+Phone:+1.4168993545
+Email:email@ROGERS.COM
+
+4. kijiji.ca
+
+details
+-------------------
+Domain Information
+Domain:kijiji.ca
+Registrar:MarkMonitor International Canada Ltd.
+Registered On:2005-01-18
+Expires On:2024-01-18
+Updated On:2022-12-17
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+Name Servers:ns-cloud-d1.googledomains.com
+ns-cloud-d2.googledomains.com
+ns-cloud-d3.googledomains.com
+ns-cloud-d4.googledomains.com
+
+Registrant Contact
+Name:Kijiji Canada Ltd
+Organization:Kijiji Canada Ltd
+Street:500 King St. W., Suite 200
+City:Toronto
+State:ON
+Postal Code:M5V1L9
+Country:CA
+Phone:+1.4165983400
+Email:email@adevinta.com
+
+5. paperblanks.com
+
+details:
+--------------------
+
+Domain Information
+Domain:paperblanks.com
+Registrar:EuroDNS S.A.
+Registered On:2000-10-17
+Expires On:2023-05-13
+Updated On:2022-05-08
+Status:clientTransferProhibited
+Name Servers:ns1.eurodns.com
+ns2.eurodns.com
+ns3.eurodns.com
+ns4.eurodns.com
+
+Registrant Contact
+Name:Conway Graham
+Organization:Paperblanks Ltd.
+Street:2-4 Ely Place
+City:Dublin
+Postal Code:2
+Country:IE
+Phone:+353.16769502
+Fax:+353.16622160
+Email:email@paperblanks.com
