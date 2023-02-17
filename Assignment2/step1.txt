@@ -1,0 +1,21 @@
+root@comp3134-Winter2023:~# tcpdump -i any -n udp -c 10 -v
+tcpdump: listening on any, link-type LINUX_SLL (Linux cooked v1), capture size 262144 bytes
+
+22:31:09.523668 IP (tos 0x0, ttl 114, id 34877, offset 0, flags [none], proto UDP (17), length 667)
+    151.106.39.18.5501 > 159.203.27.150.8118: UDP, length 639
+22:32:54.079196 IP (tos 0x0, ttl 114, id 41223, offset 0, flags [none], proto UDP (17), length 670)
+    151.106.39.18.32096 > 159.203.27.150.8119: UDP, length 642
+22:34:38.324977 IP (tos 0x0, ttl 114, id 59510, offset 0, flags [none], proto UDP (17), length 670)
+    151.106.39.18.26835 > 159.203.27.150.8120: UDP, length 642
+22:36:23.709458 IP (tos 0x0, ttl 114, id 31663, offset 0, flags [none], proto UDP (17), length 670)
+    151.106.39.18.49947 > 159.203.27.150.8121: UDP, length 642
+22:38:11.176921 IP (tos 0x0, ttl 114, id 21593, offset 0, flags [none], proto UDP (17), length 670)
+    151.106.39.18.42997 > 159.203.27.150.8122: UDP, length 642
+22:39:56.273133 IP (tos 0x0, ttl 114, id 25879, offset 0, flags [none], proto UDP (17), length 670)
+    151.106.39.18.28530 > 159.203.27.150.8123: UDP, length 642
+
+
+^C
+6 packets captured
+6 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,46 @@
+root@comp3134-Winter2023:~# tcpdump -i any port 80 -c 10 -v
+tcpdump: listening on any, link-type LINUX_SLL (Linux cooked v1), capture size 262144 bytes
+22:43:01.718214 IP (tos 0x0, ttl 243, id 54321, offset 0, flags [none], proto TCP (6), length 44)
+    45.61.188.225.49481 > comp3134-Winter2023.http: Flags [S], cksum 0x80c7 (correct), seq 2882865164, win 65535, options [mss 536], length 0
+22:43:01.718296 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    comp3134-Winter2023.http > 45.61.188.225.49481: Flags [S.], cksum 0xa59e (incorrect -> 0xe05f), seq 3108759677, ack 2882865165, win 64240, options [mss 1460], length 0
+22:43:01.765796 IP (tos 0x0, ttl 52, id 35185, offset 0, flags [DF], proto TCP (6), length 40)
+    45.61.188.225.49481 > comp3134-Winter2023.http: Flags [R], cksum 0x94e4 (correct), seq 2882865165, win 0, length 0
+22:43:01.862338 IP (tos 0x0, ttl 52, id 64846, offset 0, flags [DF], proto TCP (6), length 60)
+    45.61.188.225.56040 > comp3134-Winter2023.http: Flags [S], cksum 0xdb47 (correct), seq 1991762610, win 29200, options [mss 1400,sackOK,TS val 12918780 ecr 0,nop,wscale 7], length 0
+22:43:01.862419 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    comp3134-Winter2023.http > 45.61.188.225.56040: Flags [S.], cksum 0xa5ae (incorrect -> 0xc81e), seq 976374075, ack 1991762611, win 65160, options [mss 1460,sackOK,TS val 4146400208 ecr 12918780,nop,wscale 7], length 0
+22:43:01.907157 IP (tos 0x0, ttl 52, id 64847, offset 0, flags [DF], proto TCP (6), length 52)
+    45.61.188.225.56040 > comp3134-Winter2023.http: Flags [.], cksum 0xf462 (correct), ack 1, win 229, options [nop,nop,TS val 12918824 ecr 4146400208], length 0
+22:43:01.907157 IP (tos 0x0, ttl 52, id 64848, offset 0, flags [DF], proto TCP (6), length 323)
+    45.61.188.225.56040 > comp3134-Winter2023.http: Flags [P.], cksum 0xabfc (correct), seq 1:272, ack 1, win 229, options [nop,nop,TS val 12918824 ecr 4146400208], length 271: HTTP, length: 271
+        GET / HTTP/1.1
+        Host: 159.203.27.150:80
+        User-Agent: Linux Gnu (cow)
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Language: en-GB,en;q=0.5
+        Accept-Encoding: gzip, deflate
+        Connection: close
+        Upgrade-Insecure-Requests: 1
+
+22:43:01.907246 IP (tos 0x0, ttl 64, id 34618, offset 0, flags [DF], proto TCP (6), length 52)
+    comp3134-Winter2023.http > 45.61.188.225.56040: Flags [.], cksum 0xa5a6 (incorrect -> 0xf210), ack 272, win 507, options [nop,nop,TS val 4146400253 ecr 12918824], length 0
+22:43:01.908513 IP (tos 0x0, ttl 64, id 34619, offset 0, flags [DF], proto TCP (6), length 2609)
+    comp3134-Winter2023.http > 45.61.188.225.56040: Flags [P.], cksum 0xafa3 (incorrect -> 0xe74d), seq 1:2558, ack 272, win 507, options [nop,nop,TS val 4146400254 ecr 12918824], length 2557: HTTP, length: 2557
+        HTTP/1.1 200 OK
+        Date: Fri, 17 Feb 2023 22:43:01 GMT
+        Server: Apache/2.4.41 (Ubuntu)
+        Last-Modified: Tue, 06 Dec 2022 14:57:32 GMT
+        ETag: "1c06-5ef2a060a3b40-gzip"
+        Accept-Ranges: bytes
+        Vary: Accept-Encoding
+        Content-Encoding: gzip
+        Content-Length: 2255
+        Connection: close
+        Content-Type: text/html
+
+22:43:01.908857 IP (tos 0x0, ttl 64, id 34621, offset 0, flags [DF], proto TCP (6), length 52)
+    comp3134-Winter2023.http > 45.61.188.225.56040: Flags [F.], cksum 0xa5a6 (incorrect -> 0xe811), seq 2558, ack 272, win 507, options [nop,nop,TS val 4146400254 ecr 12918824], length 0
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel

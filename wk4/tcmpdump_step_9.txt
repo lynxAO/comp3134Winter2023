@@ -1,0 +1,15 @@
+too long... 
+
+root@comp3134-Winter2023:~# tcpdump -i eth0 tcp
+
+0, length 212
+20:31:16.198023 IP comp3134-Winter2023.ssh > cpe9050cabc6ad3-cm9050cabc6ad0.cpe.net.cable.rogers.com.59547: Flags [P.], seq 18929208:18929420, ack 10657, win 570, length 212
+20:31:16.198070 IP comp3134-Winter2023.ssh > cpe9050cabc6ad3-cm9050cabc6ad0.cpe.net.cable.rogers.com.59547: Flags [P.], seq 18929420:18929632, ack 10657, win 570, length 212
+20:31:16.198115 IP comp3134-Winter2023.ssh > cpe9050cabc6ad3-cm9050cabc6ad0.cpe.net.cable.rogers.com.59547: Flags [P.], seq 18929632:18929844, ack 10657, win 570, length 212
+20:31:16.198134 IP cpe9050cabc6ad3-cm9050cabc6ad0.cpe.net.cable.rogers.com.59547 > comp3134-Winter2023.ssh: Flags [P.], seq 10657:10693, ack 18869672, win 17976, length 36
+20:31:16.198134 IP cpe9050cabc6ad3-cm9050cabc6ad0.cpe.net.cable.rogers.com.59547 > comp3134-Winter2023.ssh: Flags [.], ack 18879312, win 17976, length 0
+^C
+90426 packets captured
+90445 packets received by filter
+19 packets dropped by kernel
+root@comp3134-Winter2023:~#
