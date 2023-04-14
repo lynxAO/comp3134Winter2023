@@ -1,0 +1,2 @@
+This page displays the "/var/www" folder structure.
+List of /var/www files and directories on the server

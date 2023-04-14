@@ -1,0 +1,2 @@
+This page displays the "/var/" folder structure.
+Files and folders listed in /var on the server

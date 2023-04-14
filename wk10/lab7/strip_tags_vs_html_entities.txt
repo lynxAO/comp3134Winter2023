@@ -1,0 +1,16 @@
+strip_tags and html_entities are both functions in PHP that can be used to sanitize user input.
+
+strip_tags is used to remove HTML tags from a string.
+ This function removes all HTML tags from a string,
+  which makes it useful for preventing cross-site scripting (XSS) attacks. However, 
+  it does not encode special characters, which means that it does not prevent attacks like SQL injection.
+
+html_entities is used to convert special characters in a string to their corresponding HTML entities.
+ This function replaces special characters like <, >, and & with their corresponding HTML entities, 
+ which makes it useful for preventing XSS attacks and other types of attacks that rely on special
+  characters. However, it does not remove HTML tags, 
+  which means that it does not prevent attacks like script injection.
+
+In general, it is recommended to use both strip_tags and html_entities to sanitize user input. 
+By using both functions, you can prevent both XSS attacks and other types of attacks that rely
+ on special characters.

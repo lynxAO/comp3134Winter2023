@@ -1,0 +1,19 @@
+<?php
+echo "<h1>This is an example of an H1 header tag</h1>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+
+echo "<h2>This is an example of an H2 header tag</h2>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+
+echo "<h3>This is an example of an H3 header tag</h3>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+
+echo "<h4>This is an example of an H4 header tag</h4>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+
+echo "<h5>This is an example of an H5 header tag</h5>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+
+echo "<h6>This is an example of an H6 header tag</h6>";
+/* Created by Mohamed Abdiwahab Hussein with employee id: 101308661 */
+?>

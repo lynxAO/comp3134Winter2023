@@ -1,0 +1,2 @@
+The /directory traversal part1.php page will be displayed when we access the /storexss.php page.
+because the read file outputs weren't processed. Thus, the js script will run.

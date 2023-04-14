@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reflected XSS</title>
+	<script type="text/javascript">
+		function onSubmit() {
+			// disable default form behavior
+			event.preventDefault();
+			// get the value of the text field
+			var name = document.getElementById("name").value;
+			// display the value of the text field in the div element
+			document.getElementById("output").innerHTML = "Hello, " + name + "!";
+		}
+	</script>
+</head>
+<body>
+	<h1>Reflected XSS</h1>
+	<form onsubmit="onSubmit()">
+		<label for="name">Enter your name:</label>
+		<input type="text" id="name" name="name">
+		<input type="submit" value="Submit">
+	</form>
+	<div id="output"></div>
+</body>
+</html>

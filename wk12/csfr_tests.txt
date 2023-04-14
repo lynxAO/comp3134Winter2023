@@ -1,0 +1,24 @@
+- Only /csfr form.php will be able to access the login feature in /csfr action.php.
+Since this is the page where the "confirmation" Session variable is created. Basically trying to enter in /csfr action.php is no longer working.
+
+- Both choices will function with the /csfr.php login feature.
+From the /csfr.php page, we can enter the login and password directly, or we can navigate to the /csfr.html page, which will transfer the inputs to the /csfr.php page automatically.
+
+furthermore, we can outline any observations that we can make while testing the CSRF rom. We might want to test for the following:
+
+1. Submitting the form with valid credentials and the correct confirmation value.
+
+2. Submitting the form with invalid credentials and the correct confirmation value.
+
+3. Submitting the form with valid credentials and an incorrect confirmation value.
+
+4. Submitting the form with invalid credentials and an incorrect confirmation value.
+
+5. Attempting to submit the form using a CSRF attack (e.g., by creating a fake form on another website that submits to the "csfr_action.php" page with an incorrect confirmation value).
+
+We should observe that the CSRF attack fails because the "csfr_action.php" script checks that the session variable and POST value for the confirmation value are equal. If they are not equal, the CSRF validation fails and the script outputs a "CSRF validation failed!" message.
+
+
+
+
+

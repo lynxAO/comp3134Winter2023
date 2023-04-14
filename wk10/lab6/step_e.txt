@@ -1,0 +1,6 @@
+- Files and folders prior to the html directory $path=basename($path) shouldn't be shown; $path=basename($path);
+
+- Avoid attempting to open nonexistent directories.
+$path=file_exists($path) ? $path : '.';
+
+- deny the user the ability to pass a filename using $path=str contains($path, ".")? '.' : $path;
